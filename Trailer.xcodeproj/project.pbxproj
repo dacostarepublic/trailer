@@ -82,6 +82,7 @@
 		166ADEC81CCB009A001BA61F /* SnoozingEditorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 166ADEC71CCB009A001BA61F /* SnoozingEditorViewController.swift */; };
 		1671A11F1AC73CCB0047440A /* SetupAssistant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1671A11E1AC73CCB0047440A /* SetupAssistant.swift */; };
 		1671A1231AC74BC30047440A /* SetupAssistant.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1671A1221AC74BC30047440A /* SetupAssistant.xib */; };
+		167B10541E69F31C00B0E1AE /* NotificationHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 167B10531E69F31C00B0E1AE /* NotificationHelper.m */; };
 		16813CBF1BA16D660020F8EB /* CommonController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16813CBE1BA16D660020F8EB /* CommonController.swift */; };
 		168839C71DEF8C3B002D9448 /* ImportExport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 168839C61DEF8C3B002D9448 /* ImportExport.swift */; };
 		168BC6C417EC2DF000BC4584 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 168BC6C217EC2DF000BC4584 /* MainMenu.xib */; };
@@ -307,6 +308,8 @@
 		1671A1221AC74BC30047440A /* SetupAssistant.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SetupAssistant.xib; sourceTree = "<group>"; };
 		1672DF2D1AB0D7CC00381AEB /* PocketTrailer WatchKit Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "PocketTrailer WatchKit Extension.entitlements"; sourceTree = "<group>"; };
 		16791B161C0A1B0D003A527F /* Trailer 23.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "Trailer 23.xcdatamodel"; sourceTree = "<group>"; };
+		167B10521E69F31C00B0E1AE /* NotificationHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NotificationHelper.h; sourceTree = "<group>"; };
+		167B10531E69F31C00B0E1AE /* NotificationHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NotificationHelper.m; sourceTree = "<group>"; };
 		167E399B1CF981D900593204 /* Trailer 29.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "Trailer 29.xcdatamodel"; sourceTree = "<group>"; };
 		16813CBE1BA16D660020F8EB /* CommonController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = CommonController.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		1686B1D41AE59AED009118C5 /* PocketTrailer.entitlements */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = PocketTrailer.entitlements; sourceTree = "<group>"; };
@@ -455,6 +458,8 @@
 				16A0B03B1A49AEC200B3452D /* StartupLaunch.swift */,
 				16358F3A1CF138190055F849 /* ItemDelegate.swift */,
 				16358F3C1CF206CE0055F849 /* MenuBarSet.swift */,
+				167B10521E69F31C00B0E1AE /* NotificationHelper.h */,
+				167B10531E69F31C00B0E1AE /* NotificationHelper.m */,
 			);
 			name = Core;
 			sourceTree = "<group>";
@@ -1182,6 +1187,7 @@
 				164785AA1A2CE7BD00297764 /* Globals.swift in Sources */,
 				16B3B31B1A34E8E2000BE6CC /* PRComment.swift in Sources */,
 				160D312C1A9619CE006B74BC /* FilledView.swift in Sources */,
+				167B10541E69F31C00B0E1AE /* NotificationHelper.m in Sources */,
 				16DB793C1E326C950076A36D /* AdvancedReposWindow.swift in Sources */,
 				162A29D91A4085FD008F41A9 /* GroupingCriterion.swift in Sources */,
 				16B3B34F1A34E990000BE6CC /* Trailer.xcdatamodeld in Sources */,

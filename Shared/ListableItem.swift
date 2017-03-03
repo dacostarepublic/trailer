@@ -715,12 +715,7 @@ class ListableItem: DataItem {
 
 	final class func removeRelatedNotifications(uri: String) {
 		#if os(OSX)
-			let nc = NSUserNotificationCenter.default
-			for n in nc.deliveredNotifications {
-				if let u = n.userInfo, let notificationUri = u[LISTABLE_URI_KEY] as? String, notificationUri == uri {
-					nc.removeDeliveredNotification(n)
-				}
-			}
+			NotificationHelper.clearNotifications(withUri: uri)
 		#elseif os(iOS)
 			let nc = UNUserNotificationCenter.current()
 			nc.getDeliveredNotifications { notifications in
